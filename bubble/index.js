@@ -11,10 +11,21 @@ inputElement.addEventListener("change", function (event) {
 
   //배열에 있는 것 도형에 뿌려주기
 
-  //   for (var i in splitArray) {
-  //     document.getElementById("display").innerHTML = splitArray[i];
-  //   }
-  document.getElementById("display0").innerHTML = splitArray[0];
-  document.getElementById("display1").innerHTML = splitArray[1];
-  document.getElementById("display2").innerHTML = splitArray[2];
+    //   const arr=splitArray.map(val=>`<div><h1>${val}</h1></div>`);
+    //   document.getElementById("display").innerHTML=arr;
+    //   console.log(arr);
+
+    for (var i in splitArray) {
+        const arr = `<div class="circle"><h1>${splitArray[i]}</h1></div>`;
+        document.getElementById("display").innerHTML += arr; 
+        
+        console.log(arr)
+    }
+  
 });
+
+// function display(){
+//     var num = document.createElement("div")
+//     num.innerHTML= arr;
+//     document.body.appendChild(num)
+// }
