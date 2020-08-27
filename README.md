@@ -1,4 +1,6 @@
-# Javascript_project
-1. bubble
-   주제: 버블 정렬을 이용한 웹페이지 제작
-   사용 기술 : html/css/javascript
+# Algorithm
+HTML, JS, CSS를 이용하여 알고리즘을 시각화하는 프로젝트입니다.
+<br/>
+### Bubble Sort
+>  서로 인접한 두 원소를 검사하여 정렬하는 알고리즘 <br/>
+   인접한 두 원소를 비교하여 크기가 순서대로 있지 않으면 서로 교환
